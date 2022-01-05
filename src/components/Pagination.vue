@@ -9,7 +9,7 @@
         </li>
         <li class="page-item"><a class="page-link" href="#">1</a></li>
         <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" @click="getPage" href="#">3</a></li>
         <li class="page-item">
           <a class="page-link" href="#" aria-label="Next">
             <span aria-hidden="true">&raquo;</span>
@@ -27,6 +27,13 @@ export default {
       perpage: [],
       pages: [],
     };
+  },
+  methods: {
+    nawaoo() {
+      alert('i got here baebyyy')
+    },
+
+
   },
   computed: {},
 };
